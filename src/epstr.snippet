@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+    <CodeSnippet Format="1.0.0">
+        <Header>
+            <Title>Episerver String Model</Title>
+            <Author>Jacob Pretorius</Author>
+            <Description>Add a String property to the model</Description>
+            <Shortcut>epstr</Shortcut>
+        </Header>
+        <Snippet>
+            <Code Language="csharp">
+                <![CDATA[[CultureSpecific]
+            [Display(
+                Name = "Heading",
+                Description = "",
+                GroupName = SystemTabNames.Content,
+                Order = 10)]
+            [UIHint(UIHint.LongString)]
+            public virtual string Heading { get; set; }]]>
+            </Code>
+        </Snippet>
+    </CodeSnippet>
+</CodeSnippets>

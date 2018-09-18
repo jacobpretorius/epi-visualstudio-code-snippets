@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+    <CodeSnippet Format="1.0.0">
+        <Header>
+            <Title>Episerver Content Reference Image Model</Title>
+            <Author>Jacob Pretorius</Author>
+            <Description>Add a Content Reference Image property to the model</Description>
+            <Shortcut>epcntri</Shortcut>
+        </Header>
+        <Snippet>
+            <Code Language="csharp">
+                <![CDATA[[CultureSpecific]
+            [Display(
+                Name = "SelectedContent",
+                Description = "",
+                GroupName = SystemTabNames.Content,
+                Order = 10)]
+                [UIHint(UIHint.Image)]
+            public virtual ContentReference SelectedContentImage { get; set; }]]>
+            </Code>
+        </Snippet>
+    </CodeSnippet>
+</CodeSnippets>
