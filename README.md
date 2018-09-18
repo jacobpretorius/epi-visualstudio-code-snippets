@@ -1,4 +1,4 @@
-# epi-visualstudio-code-snippets
+# Episerver Visual Studio Code Snippets
 Episerver specific code snippets for Visual Studio to reduce the need for extra keystrokes.
 
 More info and usage instructions here:
